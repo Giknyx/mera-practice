@@ -1,0 +1,10 @@
+package-lock.json
+dist/
+node_modules/
+cypress
+.gitignore
+.github
+babel.config.js
+webpack.config.js
+*.json
+*.html
