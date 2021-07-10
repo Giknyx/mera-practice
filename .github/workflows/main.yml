@@ -11,15 +11,6 @@ on:
 
 # выполняемые действия
 jobs:
-  eslint:
-    runs-on: ubuntu-latest
-
-    steps:
-    
-    - run: npm ci
-    - run: npm install
-    - run: npm run lint
-  
   build-and-deploy:
     runs-on: ubuntu-latest
     
